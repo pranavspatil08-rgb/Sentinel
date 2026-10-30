@@ -1,0 +1,8 @@
+{
+  "name": "Remix Sentinel AI Command System",
+  "description": "Tactical intelligence environment for mission-critical situational awareness, digital forensics, and CCTV surveillance operations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

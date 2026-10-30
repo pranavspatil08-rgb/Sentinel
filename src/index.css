@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #F4F3EF;
+    color: #171B1F;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-feature-settings: "tnum" 1;
+  }
+}
+
+/* Police workstation scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F3EF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DCDAD4;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B8B5AC;
+}
+
+/* Operational focus ring in signal amber */
+:focus-visible {
+  outline: 2px solid #D9822B;
+  outline-offset: 1px;
+}
+
+/* Leaflet map clean GIS styling: 4px corners, 1px border, no heavy drop shadows */
+.leaflet-popup-content-wrapper {
+  background: #FFFFFF !important;
+  color: #171B1F !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  border: 1px solid #DCDAD4 !important;
+  padding: 0 !important;
+}
+
+.leaflet-popup-content {
+  margin: 8px 12px !important;
+  line-height: 1.4 !important;
+}
+
+.leaflet-popup-tip {
+  background: #FFFFFF !important;
+  border: 1px solid #DCDAD4 !important;
+}
+
+.leaflet-container {
+  font-family: 'Public Sans', sans-serif !important;
+  border-radius: 4px !important;
+}
+
+/* Print utility for formal case dossiers */
+@media print {
+  body {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+  }
+  .print\:hidden {
+    display: none !important;
+  }
+}

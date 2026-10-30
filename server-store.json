@@ -1,0 +1,440 @@
+{
+  "cameras": [
+    {
+      "id": "CAM-PU-01",
+      "name": "Swargate Chowk, Pune–Satara Road",
+      "location": "Swargate, Pune",
+      "lat": 18.5018,
+      "lng": 73.8636,
+      "status": "online",
+      "reliability": {
+        "grade": "Good",
+        "reason": "Clear fixed view; regularly calibrated"
+      }
+    },
+    {
+      "id": "CAM-PU-02",
+      "name": "FC Road, Fergusson College Gate",
+      "location": "FC Road, Pune",
+      "lat": 18.5236,
+      "lng": 73.8412,
+      "status": "online",
+      "reliability": {
+        "grade": "Good",
+        "reason": "Elevated intersection camera"
+      }
+    },
+    {
+      "id": "CAM-PU-03",
+      "name": "Shivajinagar Bus Stand",
+      "location": "Shivajinagar, Pune",
+      "lat": 18.5314,
+      "lng": 73.8446,
+      "status": "online",
+      "reliability": {
+        "grade": "Fair",
+        "reason": "Busy pedestrian area"
+      }
+    },
+    {
+      "id": "CAM-PU-04",
+      "name": "University Circle, Ganeshkhind Road",
+      "location": "Ganeshkhind Road, Pune",
+      "lat": 18.5524,
+      "lng": 73.8255,
+      "status": "online",
+      "reliability": {
+        "grade": "Good",
+        "reason": "Clear fixed view"
+      }
+    },
+    {
+      "id": "CAM-PU-05",
+      "name": "Pune Railway Station, Sassoon Road",
+      "location": "Sassoon Road, Pune",
+      "lat": 18.5289,
+      "lng": 73.8744,
+      "status": "online",
+      "reliability": {
+        "grade": "Fair",
+        "reason": "High pedestrian volume"
+      }
+    },
+    {
+      "id": "CAM-PU-06",
+      "name": "Katraj Chowk",
+      "location": "Katraj, Pune",
+      "lat": 18.4575,
+      "lng": 73.8677,
+      "status": "offline",
+      "reliability": {
+        "grade": "Poor",
+        "reason": "Cable fault; coverage gap"
+      }
+    }
+  ],
+  "sightings": [
+    {
+      "id": "SGT-01",
+      "cameraId": "CAM-PU-01",
+      "time": "2026-10-30T07:18:15.778Z",
+      "type": "vehicle",
+      "plateNumber": "MH 12 AB 1234",
+      "rawPlateRead": "MH 12 AB 1234",
+      "normalizedPlate": "MH12AB1234",
+      "plateReadConfidence": 98,
+      "isOcrUncertain": false,
+      "confidence": 98,
+      "reason": "Plate and vehicle profile match watchlist target.",
+      "whyMatched": [
+        "Normalized Maharashtra plate match",
+        "Vehicle appearance is consistent"
+      ],
+      "confidenceBreakdown": {
+        "readOrAppearance": 98,
+        "timePlausibility": 90,
+        "cameraQuality": 88
+      },
+      "evidenceUrl": null,
+      "evidenceSha256": null,
+      "detectionBox": null,
+      "isAiGenerated": false,
+      "decision": "confirmed",
+      "notes": "",
+      "sampleImageUrl": "/assets/evidence/vehicle-grey-sedan.jpg"
+    },
+    {
+      "id": "SGT-02",
+      "cameraId": "CAM-PU-02",
+      "time": "2026-10-30T07:25:15.778Z",
+      "type": "vehicle",
+      "plateNumber": "MH 12 AB 1234",
+      "rawPlateRead": "MH 12 AB 1234",
+      "normalizedPlate": "MH12AB1234",
+      "plateReadConfidence": 95,
+      "isOcrUncertain": false,
+      "confidence": 95,
+      "reason": "Plate and vehicle profile match watchlist target.",
+      "whyMatched": [
+        "Normalized Maharashtra plate match",
+        "Vehicle appearance is consistent"
+      ],
+      "confidenceBreakdown": {
+        "readOrAppearance": 95,
+        "timePlausibility": 90,
+        "cameraQuality": 88
+      },
+      "evidenceUrl": null,
+      "evidenceSha256": null,
+      "detectionBox": null,
+      "isAiGenerated": false,
+      "decision": "confirmed",
+      "notes": "",
+      "sampleImageUrl": "/assets/evidence/pune-traffic.jpg"
+    },
+    {
+      "id": "SGT-03",
+      "cameraId": "CAM-PU-03",
+      "time": "2026-10-30T07:27:39.778Z",
+      "type": "vehicle",
+      "plateNumber": "MH 12 AB 1234",
+      "rawPlateRead": "MH 12 AB 1234",
+      "normalizedPlate": "MH12AB1234",
+      "plateReadConfidence": 93,
+      "isOcrUncertain": false,
+      "confidence": 93,
+      "reason": "Plate and vehicle profile match watchlist target.",
+      "whyMatched": [
+        "Normalized Maharashtra plate match",
+        "Vehicle appearance is consistent"
+      ],
+      "confidenceBreakdown": {
+        "readOrAppearance": 93,
+        "timePlausibility": 90,
+        "cameraQuality": 88
+      },
+      "evidenceUrl": null,
+      "evidenceSha256": null,
+      "detectionBox": null,
+      "isAiGenerated": false,
+      "decision": "confirmed",
+      "notes": "",
+      "sampleImageUrl": "/assets/evidence/traffic-pune.jpg"
+    },
+    {
+      "id": "SGT-04",
+      "cameraId": "CAM-PU-04",
+      "time": "2026-10-30T07:34:15.778Z",
+      "type": "vehicle",
+      "plateNumber": "MH 12 AB 1234",
+      "rawPlateRead": "MH 12 AB 1234",
+      "normalizedPlate": "MH12AB1234",
+      "plateReadConfidence": 96,
+      "isOcrUncertain": false,
+      "confidence": 96,
+      "reason": "Plate and vehicle profile match watchlist target.",
+      "whyMatched": [
+        "Normalized Maharashtra plate match",
+        "Vehicle appearance is consistent"
+      ],
+      "confidenceBreakdown": {
+        "readOrAppearance": 96,
+        "timePlausibility": 90,
+        "cameraQuality": 88
+      },
+      "evidenceUrl": null,
+      "evidenceSha256": null,
+      "detectionBox": null,
+      "isAiGenerated": false,
+      "decision": "confirmed",
+      "notes": "",
+      "sampleImageUrl": "/assets/evidence/pune-busy-traffic.jpg"
+    },
+    {
+      "id": "SGT-05",
+      "cameraId": "CAM-PU-05",
+      "time": "2026-10-30T07:36:15.778Z",
+      "type": "vehicle",
+      "plateNumber": "MH 12 A8 1234",
+      "rawPlateRead": "MH 12 A8 1234",
+      "normalizedPlate": "MH12A81234",
+      "plateReadConfidence": 68.3,
+      "isOcrUncertain": true,
+      "confidence": 68,
+      "reason": "OCR uncertain – review",
+      "whyMatched": [
+        "Possible B/8 OCR confusion",
+        "Vehicle profile consistent; human review required"
+      ],
+      "confidenceBreakdown": {
+        "readOrAppearance": 68,
+        "timePlausibility": 90,
+        "cameraQuality": 88
+      },
+      "evidenceUrl": null,
+      "evidenceSha256": null,
+      "detectionBox": null,
+      "isAiGenerated": false,
+      "decision": "pending",
+      "notes": "",
+      "sampleImageUrl": "/assets/evidence/pune-two-wheelers.jpg"
+    },
+    {
+      "id": "SGT-06",
+      "cameraId": "CAM-PU-02",
+      "time": "2026-10-30T07:38:15.778Z",
+      "type": "vehicle",
+      "plateNumber": "MH 14 CD 5678",
+      "rawPlateRead": "MH 14 CD 5678",
+      "normalizedPlate": "MH14CD5678",
+      "plateReadConfidence": 92,
+      "isOcrUncertain": false,
+      "confidence": 92,
+      "reason": "Plate and vehicle profile match watchlist target.",
+      "whyMatched": [
+        "Normalized Maharashtra plate match",
+        "Vehicle appearance is consistent"
+      ],
+      "confidenceBreakdown": {
+        "readOrAppearance": 92,
+        "timePlausibility": 90,
+        "cameraQuality": 88
+      },
+      "evidenceUrl": null,
+      "evidenceSha256": null,
+      "detectionBox": null,
+      "isAiGenerated": false,
+      "decision": "pending",
+      "notes": "",
+      "sampleImageUrl": "/assets/evidence/pune-swargate.jpg"
+    },
+    {
+      "id": "SGT-07",
+      "cameraId": "CAM-PU-01",
+      "time": "2026-10-30T06:43:15.778Z",
+      "type": "person",
+      "plateReadConfidence": 94,
+      "isOcrUncertain": false,
+      "personDescription": "Adult wearing red hooded jacket, dark trousers and black backpack",
+      "confidence": 94,
+      "reason": "Clothing description matches missing person report.",
+      "whyMatched": [
+        "Red hooded jacket",
+        "Dark trousers and black backpack"
+      ],
+      "confidenceBreakdown": {
+        "readOrAppearance": 94,
+        "timePlausibility": 90,
+        "cameraQuality": 88
+      },
+      "evidenceUrl": null,
+      "evidenceSha256": null,
+      "detectionBox": null,
+      "isAiGenerated": false,
+      "decision": "confirmed",
+      "notes": "",
+      "sampleImageUrl": "/assets/evidence/person-red-jacket.jpg"
+    },
+    {
+      "id": "SGT-08",
+      "cameraId": "CAM-PU-02",
+      "time": "2026-10-30T07:33:15.778Z",
+      "type": "person",
+      "plateReadConfidence": 89,
+      "isOcrUncertain": false,
+      "personDescription": "Adult wearing red hooded jacket, dark trousers and black backpack",
+      "confidence": 89,
+      "reason": "Clothing description matches missing person report.",
+      "whyMatched": [
+        "Red hooded jacket",
+        "Dark trousers and black backpack"
+      ],
+      "confidenceBreakdown": {
+        "readOrAppearance": 89,
+        "timePlausibility": 90,
+        "cameraQuality": 88
+      },
+      "evidenceUrl": null,
+      "evidenceSha256": null,
+      "detectionBox": null,
+      "isAiGenerated": false,
+      "decision": "confirmed",
+      "notes": "",
+      "sampleImageUrl": "/assets/evidence/person-red-backpack.jpg"
+    },
+    {
+      "id": "SGT-09",
+      "cameraId": "CAM-PU-03",
+      "time": "2026-10-30T07:47:15.778Z",
+      "type": "person",
+      "plateReadConfidence": 92,
+      "isOcrUncertain": false,
+      "personDescription": "Adult wearing red hooded jacket, dark trousers and black backpack",
+      "confidence": 92,
+      "reason": "Clothing description matches missing person report.",
+      "whyMatched": [
+        "Red hooded jacket",
+        "Dark trousers and black backpack"
+      ],
+      "confidenceBreakdown": {
+        "readOrAppearance": 92,
+        "timePlausibility": 90,
+        "cameraQuality": 88
+      },
+      "evidenceUrl": null,
+      "evidenceSha256": null,
+      "detectionBox": null,
+      "isAiGenerated": false,
+      "decision": "confirmed",
+      "notes": "",
+      "sampleImageUrl": "/assets/evidence/person-red-hoodie-backpack.jpg"
+    },
+    {
+      "id": "SGT-10",
+      "cameraId": "CAM-PU-03",
+      "time": "2026-10-30T07:46:15.778Z",
+      "type": "person",
+      "plateReadConfidence": 84,
+      "isOcrUncertain": false,
+      "personDescription": "Pedestrian in a yellow utility vest",
+      "confidence": 84,
+      "reason": "Clothing description matches missing person report.",
+      "whyMatched": [
+        "Red hooded jacket",
+        "Dark trousers and black backpack"
+      ],
+      "confidenceBreakdown": {
+        "readOrAppearance": 84,
+        "timePlausibility": 90,
+        "cameraQuality": 88
+      },
+      "evidenceUrl": null,
+      "evidenceSha256": null,
+      "detectionBox": null,
+      "isAiGenerated": false,
+      "decision": "rejected",
+      "notes": "",
+      "sampleImageUrl": "/assets/evidence/person-yellow-vest.jpg"
+    }
+  ],
+  "cases": [
+    {
+      "caseId": "CASE-2026-001",
+      "title": "Stolen vehicle – MH 12 AB 1234",
+      "type": "vehicle",
+      "status": "Open",
+      "searchCriteria": "MH 12 AB 1234",
+      "linkedSightingIds": [
+        "SGT-01",
+        "SGT-02",
+        "SGT-03",
+        "SGT-04",
+        "SGT-05"
+      ],
+      "notes": "Dark grey sedan. MH-12 is Pune RTO."
+    },
+    {
+      "caseId": "CASE-2026-002",
+      "title": "Missing person – red jacket",
+      "type": "person",
+      "status": "Open",
+      "searchCriteria": "red jacket",
+      "linkedSightingIds": [
+        "SGT-07",
+        "SGT-08",
+        "SGT-09"
+      ],
+      "personName": "Missing person",
+      "lastSeenPlace": "Swargate, Pune",
+      "lastSeenTime": "2026-10-30T06:43:15.778Z",
+      "notes": "Adult wearing red hooded jacket, dark trousers and black backpack."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "WCH-01",
+      "type": "vehicle",
+      "target": "MH 12 AB 1234",
+      "description": "Stolen vehicle – flagged for review",
+      "priority": "High",
+      "addedBy": "Admin",
+      "addedAt": "2026-10-30T03:40:36.879Z"
+    },
+    {
+      "id": "WCH-02",
+      "type": "person",
+      "target": "red jacket",
+      "description": "Missing person alert",
+      "priority": "High",
+      "addedBy": "Admin",
+      "addedAt": "2026-10-30T03:40:36.879Z"
+    }
+  ],
+  "alerts": [],
+  "activityLog": [
+    {
+      "id": "ACT-06749",
+      "timestamp": "30/10/2026 14:00:06 IST",
+      "user": "Inspector Kulkarni",
+      "role": "Investigator",
+      "action": "LOGIN_SUCCESS",
+      "details": "Officer authenticated into terminal."
+    },
+    {
+      "id": "ACT-81652",
+      "timestamp": "30/10/2026 14:01:21 IST",
+      "user": "Inspector Kulkarni",
+      "role": "Investigator",
+      "action": "LOGOUT",
+      "details": "Officer logged out of terminal."
+    },
+    {
+      "id": "ACT-94685",
+      "timestamp": "30/10/2026 14:01:34 IST",
+      "user": "Admin",
+      "role": "Admin",
+      "action": "LOGIN_SUCCESS",
+      "details": "Officer authenticated into terminal."
+    }
+  ]
+}
